@@ -31,7 +31,6 @@ M.paste_img = function(opts)
       local buffer_dir = vim.fn.expand("%:p:h")
       if buffer_dir ~= "" then
         img_dir = utils.join_paths(buffer_dir, conf.img_dir)
-        img_dir_txt = utils.join_paths(buffer_dir, conf.img_dir_txt)
       end
     end
     
